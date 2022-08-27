@@ -38,7 +38,7 @@ function addMember() {
             }])
 
             .then(function({name, role, id, email}) {
-                const roleInfo = '';
+                let roleInfo = '';
                 if (role === 'Engineer') {
                     roleInfo = 'GitHub username';
                 } else if (role === 'Intern') {
@@ -73,7 +73,7 @@ function addMember() {
                         if (moreMembers === 'yes') {
                             addMember();
                         } else {
-                            endHtml();
+                            endHTML();
                         }
                     });
                 });
@@ -198,4 +198,4 @@ function addHtml(member) {
         };
         
         init();
-    
+        
