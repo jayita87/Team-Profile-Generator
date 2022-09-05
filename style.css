@@ -1,5 +1,6 @@
 .jumbotron {
     border-radius: 0;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
 }
 
 .employee-card {
@@ -7,9 +8,12 @@
     width: 18rem;
     margin: 1rem;
     border: none;
-
+    background-image: linear-gradient( 135deg, #C2FFD8 10%, #465EFB 100%);
 }
 
 .card-body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(227, 234, 238);
+}
+.card-header{
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
 }
